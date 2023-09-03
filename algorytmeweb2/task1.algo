@@ -1,0 +1,23 @@
+algorithme verification 
+//algo qui vérifie que la phrase se termine par un point.
+var phrase :chaine de carractere
+var Indexpoint: integer
+var nb_mots : integer
+var carractere: chaine de carractere 
+Begin
+
+ Indexpoint <-   phrase[phrase.length-1]
+ phrase[Indexpoint]
+   ecrire (" la phrase se termine par un point ")  
+// calcul nb de mot dans la phrase 
+nb_mots=0 
+for carractere in phrase  
+    if carractere= " "
+        nb_mots= nb_mots+1 
+  ecrire (" le nombre de mots dans la phrase est:",nb_mots)      
+// calcul nb de voyels dans la phrase 
+nb_voyel:["a","e","i","u","y"]
+    if phrase[i]= nb_voyel
+    compteur_voyel=compteur_voyel+1 
+    ecrire("le nombre de voyels dans la phrase est:", compteur_voyel)
+ end.

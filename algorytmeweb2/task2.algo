@@ -1,0 +1,10 @@
+Algorithme somme_elmentsTab ( tableau1 , tableau2) 
+Var s: integer 
+BEGIN 
+s=0
+for tableau1[i ], i < tableau1.length-1 && for tableau2[i ], i < tableau2.length-1 
+
+if tableau1[i]≠ tableau2[i] && tableau2≠ tableau1[i]
+    s=s+tableau2[i]
+end if
+end.
